@@ -1,8 +1,9 @@
 body {
-font-family: 'Open Sans', sans-serif;
+font-family: 'Noto Serif', serif;
   background: linear-gradient(to top left, #00cc99 0%, #ff66cc 100%);
 }
 
+/*font-family: 'Libre Baskerville', serif;*/
 
 .titulo {
   color: #dafdeb;
@@ -27,4 +28,14 @@ hr {
 
 .footer a {
   color: #fff;
+}
+
+.container h5{
+  font-family: 'Libre Baskerville', serif;
+}
+
+@media (max-width: 920px) {
+  .footer {
+    margin-left: 40px;
+  }
 }
