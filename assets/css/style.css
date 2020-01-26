@@ -13,16 +13,20 @@ background: linear-gradient(to top left, #00cc99 0%, #ff66cc 100%);
   padding: 3.25rem 0rem;
   }
 
-  h1 {
+  /*h1 {
   font-weight: 150;
-  text-align: right;
+  text-align: center;
   font-size: 2em;
   margin-bottom: 1.25em;
-  }
+  }*/
 
 hr {
   border: 1.5px solid #000000;
   width: 5%;
+}
+
+.footer{
+  margin-top: 15px !important;
 }
 
 .footer a {
@@ -32,6 +36,8 @@ hr {
 h3 {
 font-family: 'Libre Baskerville', serif;
 }
+
+
 
 @media (max-width: 920px) {
   .footer {
